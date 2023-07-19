@@ -1,0 +1,249 @@
+nav{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 60px;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    justify-content: end;
+    justify-content: space-between;
+}
+#s{
+    color: rgb(239, 2, 2);
+    font-size: 20px;
+}
+.nav1{
+    padding-left: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nav2{
+    padding-right: 30px;
+}
+nav ul{
+    display: flex;   
+    
+}
+nav ul li{
+    display: flex;  
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 30px;
+    color: black;    
+}
+#home::before{
+    content: '';
+    position: absolute;
+    background-image: url('https://img.freepik.com/premium-photo/youtube-logo-minimal-simple-design-template-copy-space-3d_1379-4886.jpg?w=740');
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+#main{
+    padding: 120px;
+    font-family: 'Gill Sans',  Calibri, 'Trebuchet MS', sans-serif;
+}
+#main h3{
+    font-size: 30px;   
+    color: white;
+}
+#main h1{
+    font-size: 50px;
+    
+}
+#secname{
+    color: white;
+    background-color: rgb(229, 4, 4);
+    border: 2px solid rgb(229, 4, 4);
+    padding: 5px;
+    border-radius: 25px;
+}
+#secname:hover{
+    color: rgb(21, 16, 16);
+    background-color: rgb(246, 89, 89);
+    border: 2px solid rgb(246, 89, 89);
+}
+.about{
+    display: flex;
+    padding-top: 20px;
+}
+#heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(185, 185, 185);
+
+    
+}
+.details{
+    padding-left: 40px;
+    padding-right: 70px;
+}
+#about{
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    color: rgb(64, 64, 64);
+}
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.about img{
+    padding-top: 20px;
+}
+#imghover:hover{
+    transform: scale(1.3);
+}
+.details ul{
+    margin-left: 20px;
+}
+.details p{
+    margin-top: 60px;
+}
+
+#ach{
+    margin-top: 20px;
+    display: flex;
+    background-color: rgb(121, 121, 121);
+    height: 490px;
+    justify-content: space-between;
+    padding: 20PX;
+    padding-left: 40px;
+}
+#ach img{
+    opacity: 90%;
+    padding-top: 80px;
+    margin-left: 80px;
+}
+#ach UL LI {
+    font-size: 20PX;
+    padding: 5px;
+    color: white;
+}
+#ach ul{
+    padding: 40px;
+    padding-left: 70px;
+}
+.project{
+    height: 1010px;
+    width: 100%;
+    background-color: beige;
+    
+}
+.pro{
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    margin: 30px;
+    display: flex;
+}
+.pro:hover{
+    transform: scale(1.02);
+}
+.project h1{
+    padding-left: 40px;
+    padding-top: 30px;
+   
+}
+#para{
+    padding: 30px;
+}
+.service{
+    height: 700px;
+    background-color: rgb(89, 89, 89);
+}
+.row{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    width: 300px;
+    padding: 20px;
+    height: 450px;
+    border: 20px ridge crimson;
+    background: linear-gradient(to top,rgba(145, 63, 63, 0.988), 50%,white 50%);
+    background-size: 100% 200%;
+    transition: all 0.5s;
+}
+.box:hover{
+    background-position: left bottom;
+    /* border: none; */
+    color: white;
+    box-shadow: 5px 5px 5px 5px rgba(92, 27, 20, 0.911);
+}
+.service h1{
+    padding: 40px;   
+}
+.service h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    /* color: crimson; */
+    text-align: center;
+}
+.input{
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px 0;
+}
+form{
+    width: 400px;
+}
+.contact {
+    margin-top: 20px;
+    display: flex;
+    background-color: beige;
+
+}
+.contact h1{
+    padding: 40px;
+}
+form{
+    padding: 55px;
+}
+input{
+    padding: 15px;
+}
+textarea{
+    padding: 15px;
+}
+button{
+    width: 432px;
+    height: 40px;
+    background-color: rgba(167, 41, 41, 0.485);
+    color: white;
+}
+input:hover{
+    background-color: rgba(175, 175, 175, 0.485);
+}
+textarea:hover{
+    background-color: rgba(175, 175, 175, 0.485);
+}
+button:hover{
+    background-color: brown;
+}
+#map{
+    padding: 10px;
+    margin-left: 180px;
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
+    border: 2px solid rgb(226, 157, 157);
+}
+footer{
+    background-color: rgba(48, 48, 48, 0.76);
+    justify-content: center;
+    padding-top: 20px;
+    height: 70px;
+    padding-left: 20px;
+    color: white;
+    margin-top: 20px;
+}
+iframe{
+    width: 400px;
+    height: 400px;
+    
+}
